@@ -35,6 +35,8 @@
 		\small
 		\[ p(0) = 1,\ p(n) = \sum_{k \in \mathbb Z \setminus \{0\}}{(-1)^{k+1} p(n - k(3k-1) / 2)} \]
 		\[ p(n) \sim 0.145 / n \cdot \exp(2.56 \sqrt{n}) \]
+        \[ \sum_{n=0}^\infty p(n) x^n = \prod_{k=1}^\infty \frac{1}{1 - x^k} \]
+        \[ \prod_{n=1}^\infty (1 - x^n) = 1 + \sum_{k=1}^\infty (-1)^k \left(x^{k(3k+1)/2} + x^{k(3k-1)/2}\right) \]
 
 		\begin{center}
 		\begin{tabular}{c|c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c}
